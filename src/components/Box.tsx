@@ -60,7 +60,6 @@ const Box: React.FC<IBoxProps> = ({ color, index }) => {
   };
   const handleClicker = () => {
     dispatch(addTry());
-    console.log("ssa");
     numberOfTries > 0
       ? dispatch(setFirstGuess({ color, index }))
       : dispatch(setSecondGuess({ color, index }));
