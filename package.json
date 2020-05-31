@@ -2,6 +2,7 @@
   "name": "typessquares",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://zloybatarejka.github.io/squares",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -10,9 +11,13 @@
     "@types/node": "^12.12.42",
     "@types/react": "^16.9.35",
     "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.9",
+    "@types/redux": "^3.6.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
     "react-scripts": "3.4.1",
+    "redux-thunk": "^2.3.0",
     "typescript": "^3.7.5"
   },
   "scripts": {
@@ -35,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.0.0"
   }
 }
