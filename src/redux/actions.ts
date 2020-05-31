@@ -53,7 +53,7 @@ export const redraw = () => {
   ) => {
     setTimeout(() => {
       dispatch({ type: REDRAW });
-    }, 1000);
+    }, 1200);
   };
 };
 
