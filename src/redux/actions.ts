@@ -44,17 +44,7 @@ export const cancelGuesses = () => {
 };
 
 export const redraw = () => {
-  return (
-    dispatch: ThunkDispatch<
-      IAppInitialState | IColorInitialState,
-      undefined,
-      IRe
-    >
-  ) => {
-    setTimeout(() => {
-      dispatch({ type: REDRAW });
-    }, 1200);
-  };
+  return { type: REDRAW };
 };
 
 export const addGuessed = () => {
